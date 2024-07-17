@@ -39,8 +39,8 @@ selected_year_range = st.sidebar.slider('Select Year Range', min_value=int(years
 # Widget filter berdasarkan borough
 selected_borough = st.sidebar.selectbox('Select Borough', ['All'] + list(crime_data['BORO_NM'].unique()))
 
-# Set sample size to 200
-sample_size = 200
+# Set sample size to 1000
+sample_size = 1000
 
 # Filter data berdasarkan pilihan di sidebar
 if selected_crime_type != 'All':
