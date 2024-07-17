@@ -2,5 +2,6 @@ streamlit
 pandas
 seaborn
 matplotlib
+plotly
 folium
 streamlit-folium
